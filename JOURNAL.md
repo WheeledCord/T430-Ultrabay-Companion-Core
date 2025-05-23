@@ -27,7 +27,7 @@ My first thought was the Raspberry Pi Zero 2 W. It's very small, should be power
 
 It looks a little funny, because I drew it out based on reference images, without getting the measurements first (and I didn't have a ruler, so I used a Steam gift card), but this should be good for making a 3d model for it. I'll probably hollow it out and get my friend to 3d print it, so I can get a feel for it. 
 
-![image](https://github.com/user-attachments/assets/53f3d6d3-d7ec-42be-a7cd-015ad86d6c5a)
+<img src="https://github.com/user-attachments/assets/53f3d6d3-d7ec-42be-a7cd-015ad86d6c5a" width="400"/>
 
 A few hours later and I have made the 3d model for the container. I hollowed it out to save filament, and so I can see how much it can store in person. The main hole goes 11 mm deep, so I hope that will be enough to fit everything I need. As of writing this, I have just sent the email to my friend, and will probably go to sleep now, as it is past midnight. Or I might watch a few videos on PCB design. Still need to learn that.
 
