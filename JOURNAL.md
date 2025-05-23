@@ -29,5 +29,5 @@ It looks a little funny, because I drew it out based on reference images, withou
 
 ![image](https://github.com/user-attachments/assets/53f3d6d3-d7ec-42be-a7cd-015ad86d6c5a)
 
-A few hours later and I have made the 3d model for the container. I hollowed it out to save filament, and so I can see how much it can store in person. the main hole goes 11 mm deep, so I hope that will be enough to fit everything i need.
+A few hours later and I have made the 3d model for the container. I hollowed it out to save filament, and so I can see how much it can store in person. The main hole goes 11 mm deep, so I hope that will be enough to fit everything I need. As of writing this, I have just sent the email to my friend, and will probably go to sleep now, as it is past midnight. Or I might watch a few videos on PCB design. Still need to learn that.
 
