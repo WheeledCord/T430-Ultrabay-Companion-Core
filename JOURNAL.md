@@ -14,3 +14,11 @@ I recently purchased a ThinkPad T430 for 60 dollars ($35 in freedom coins). It's
 - A Raspberry Pi co-processor module
 
 I ended up going with the latter, mainly because SDRs are expensive :(
+
+### Research
+Here are my core design goals:
+- Thin enough to fit inside the ~12mm tall Serial Ultrabay Enhanced.
+- Powered by the 5V SATA power line
+- Ideally boots without human input
+
+My first though was the Raspberry Pi Zero 2 W. It's very small, it should be powerful enough, and should be able to be powered by the 5V i get from the sata. Though I think it may be *too* small. Although it's height is perfect for my usage, I think I could get something more powerful, and doesnt leave lots of wasted space, which leads me onto my next idea; The Raspberry Pi 3 A+. Though I couldn't find an exact measurement of the height anywhere, it seems to be around 12mm. That seems like it would barely fit, but considering the fact i want a case, it should factor in that as well. I could definitely make it much thinner if i were to trim down the headers, and maybe the ports as well. The other option I found was Raspberry Pi Compute Module 3+ Lite, with a custom carrier board. Perfect in theory, right? Custom carrier board = total control over size, shape, IO, etc. The problem is that I have *zero* prior experience with PCB design. 
