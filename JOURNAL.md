@@ -22,8 +22,12 @@ Here are my core design goals:
 - Ideally boots without human input
 
 My first thought was the Raspberry Pi Zero 2 W. It's very small, should be powerful enough, and can be powered by the 5V I get from the SATA port. Though, I think it may be too small. Although its height is perfect for my usage, I feel like I could use something more powerful that doesn’t leave a lot of wasted space. That leads me to my next idea: the Raspberry Pi 3 A+. I couldn’t find an exact measurement of its height anywhere, but it seems to be around 12 mm. That would barely fit, and since I want a case, I need to factor that in as well. I could definitely make it much thinner by trimming down the headers—and maybe even the ports. Another option I found is the Raspberry Pi Compute Module 3+ Lite with a custom carrier board. Perfect in theory, right? A custom carrier board would mean total control over the size, shape, IO, etc. The problem is, I have zero prior experience with PCB design. Before deciding on which board to use, I sketched out a rough template of the size and shape of the case that will go in the Ultrabay, based on the standard Serial Ultrabay Enhanced optical drive.
+
 ![IMG_3481](https://github.com/user-attachments/assets/9df797d9-3733-4b6c-aa58-ce4df23fb898)
+
 It looks a little funny, because I drew it out based on reference images, without getting the measurements first (and I didn't have a ruler, so I used a Steam gift card), but this should be good for making a 3d model for it. I'll probably hollow it out and get my friend to 3d print it, so I can get a feel for it. 
+
 ![image](https://github.com/user-attachments/assets/53f3d6d3-d7ec-42be-a7cd-015ad86d6c5a)
+
 A few hours later and I have made the 3d model for the container. I hollowed it out to save filament, and so I can see how much it can store in person. the main hole goes 11 mm deep, so I hope that will be enough to fit everything i need.
 
