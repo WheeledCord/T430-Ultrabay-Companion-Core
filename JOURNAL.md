@@ -21,7 +21,7 @@ Here are my core design goals:
 - Powered by the 5V SATA power line
 - Ideally boots without human input
 
-My first thought was the Raspberry Pi Zero 2 W. It's very small, should be powerful enough, and can be powered by the 5V I get from the SATA port. Though, I think it may be too small. Although its height is perfect for my usage, I feel like I could use something more powerful that doesn’t leave a lot of wasted space. That leads me to my next idea: the Raspberry Pi 3 A+.
+My first thought was the Raspberry Pi Zero 2 W. It's very small, should be powerful enough, and can be powered by the 5V I get from the SATA port. Though I think it may be too small. Although its height is perfect for my usage, I feel like I could use something more powerful that doesn’t leave a lot of wasted space. That leads me to my next idea: the Raspberry Pi 3 A+.
 I couldn’t find an exact measurement of its height anywhere, but it seems to be around 12 mm. That would barely fit, and since I want a case, I need to factor that in as well. I could definitely make it much thinner by trimming down the headers—and maybe even the ports.
 Another option I found is the Raspberry Pi Compute Module 3+ with a custom carrier board. Perfect in theory, right? A custom carrier board would mean total control over the size, shape, IO, etc. The problem is, I have zero prior experience with PCB design.
 Before deciding on which board to use, I sketched out a rough template of the size and shape of the case that will go in the Ultrabay, based on the standard Serial Ultrabay Enhanced optical drive.
@@ -37,16 +37,13 @@ A few hours later and I have made the 3d model for the container. I hollowed it 
 ## 23/05/25
 ### PCB design time
 
-I know next to nothing about PCB design, but for the Co-processor, I think I am going to use the Raspberry Pi Compute Module 3+, meaning I have to design a carrier board for it. If that ends up being too hard, I'll probably use the Raspberry Pi 3 A+, and if that somehow fails, I'll use the Raspberry Pi Zero 2 W.
+I know next to nothing about PCB design, but for the Co-processor, I think I'm going to use the Raspberry Pi Compute Module 3+, meaning I have to design a carrier board for it. If that ends up being too hard, I'll probably use the Raspberry Pi 3 A+, and if that somehow fails, I'll use the Raspberry Pi Zero 2 W.
 
-After some research, here are the things i'll need:
+After some research, here are the things I'll need:
 
-| Part                        | Example Model               | Purpose                 |
-| --------------------------- | --------------------------- | ----------------------- |
-| CM3+ SODIMM connector       | Hirose DF40C-100DS-0.4V(51) | Socket for CM3+         |
-| SATA 5V input connector     | JST XH or Molex             | Power from SATA         |
-| 5V regulator (optional)     | MP1584EN, AMS1117           | Smooth power            |
-| USB OTG connection          | USB Micro-B, USB header     | Host communication      |
-| SD card slot (if CM3+ Lite) | Push-push SD socket         | OS boot storage         |
-| Misc passives               | Resistors, caps, LEDs       | Power filtering, status |
-| Optional debug header       | 0.1" pin headers            | UART, I2C, GPIO         |
+- Compute Module 3+ socket (SODIMM-200)
+- Power Input (from SATA power)
+- USB OTG interface (Gadget mode)
+- EEPROM
+- 28x132 OLED I²C Display
+- GPIO Breakout
