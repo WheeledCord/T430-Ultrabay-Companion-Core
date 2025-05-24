@@ -39,7 +39,7 @@ A few hours later and I have made the 3d model for the container. I hollowed it 
 
 I know next to nothing about PCB design, but for the Co-processor, I think I'm going to use the Raspberry Pi Compute Module 3+, meaning I have to design a carrier board for it. If that ends up being too hard, I'll probably use the Raspberry Pi 3 A+, and if that somehow fails, I'll use the Raspberry Pi Zero 2 W.
 
-After some research, here are the things I'll need:
+After some research, here are the main things I'll need:
 
 - Compute Module 3+ socket (SODIMM-200)
 - Power Input (from SATA power)
@@ -47,3 +47,5 @@ After some research, here are the things I'll need:
 - EEPROM
 - 28x132 OLED I²C Display
 - GPIO Breakout
+
+I think I am going to do some PCB design practice by making the Hackpad starter project, before coming back to this.
