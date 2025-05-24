@@ -34,3 +34,19 @@ It looks a little funny, because I drew it out based on reference images, withou
 
 A few hours later and I have made the 3d model for the container. I hollowed it out to save filament, and so I can see how much it can store in person. The main hole goes 11 mm deep, so I hope that will be enough to fit everything I need. As of writing this, I have just sent the email to my friend, and will probably go to sleep now, as it is past midnight. Or I might watch a few videos on PCB design. Still need to learn that.
 
+## 23/05/25
+### PCB design time
+
+I know next to nothing about PCB design, but for the Co-processor, I think I am going to use the Raspberry Pi Compute Module 3+, meaning I have to design a carrier board for it. If that ends up being too hard, I'll probably use the Raspberry Pi 3 A+, and if that somehow fails, I'll use the Raspberry Pi Zero 2 W.
+
+After some research, here are the things i'll need:
+
+| Part                        | Example Model               | Purpose                 |
+| --------------------------- | --------------------------- | ----------------------- |
+| CM3+ SODIMM connector       | Hirose DF40C-100DS-0.4V(51) | Socket for CM3+         |
+| SATA 5V input connector     | JST XH or Molex             | Power from SATA         |
+| 5V regulator (optional)     | MP1584EN, AMS1117           | Smooth power            |
+| USB OTG connection          | USB Micro-B, USB header     | Host communication      |
+| SD card slot (if CM3+ Lite) | Push-push SD socket         | OS boot storage         |
+| Misc passives               | Resistors, caps, LEDs       | Power filtering, status |
+| Optional debug header       | 0.1" pin headers            | UART, I2C, GPIO         |
